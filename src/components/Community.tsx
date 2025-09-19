@@ -4,7 +4,9 @@ import { Calendar, Users, Coffee, Zap } from 'lucide-react';
 
 export function Community() {
   return (
-    <section id="community" className="py-20 lg:py-32 relative">
+    <section id="community" className="py-20 lg:py-32 relative overflow-hidden">
+      {/* Subtle neon gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-500/2 via-pink-500/1 to-orange-500/2"></div>
       <div className="container mx-auto px-4 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">

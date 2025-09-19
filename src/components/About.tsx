@@ -5,6 +5,8 @@ export function About() {
     <section id="about" className="py-20 lg:py-32 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-purple-50/50 dark:from-blue-950/20 dark:to-purple-950/20"></div>
+      {/* Subtle neon gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-500/3 via-purple-500/2 to-pink-500/3"></div>
       
       {/* Organic shape */}
       <div className="absolute top-0 right-0 w-96 h-96 opacity-5">
